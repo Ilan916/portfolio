@@ -8,7 +8,7 @@ type FormState = {
   message: string;
 };
 
-export function ContactForm(): JSX.Element {
+export function ContactForm() {
   const [form, setForm] = useState<FormState>({ name: "", email: "", message: "" });
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [error, setError] = useState<string>("");

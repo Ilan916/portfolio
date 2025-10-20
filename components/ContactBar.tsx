@@ -3,7 +3,7 @@ import { MdEmail } from "react-icons/md";
 import { FaPhone } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 
-export function ContactBar(): JSX.Element {
+export function ContactBar() {
   return (
     <div className="bg-foreground/5 border-b border-foreground/10">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 h-11 flex items-center justify-center text-sm">

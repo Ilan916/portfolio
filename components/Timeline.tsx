@@ -25,7 +25,7 @@ const defaultItems: TimelineItem[] = [
   },
 ];
 
-export function Timeline({ items = defaultItems }: { items?: TimelineItem[] }): JSX.Element {
+export function Timeline({ items = defaultItems }: { items?: TimelineItem[] }) {
   return (
     <section className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-12">
       <h2 className="text-base font-semibold text-foreground/80">Parcours</h2>

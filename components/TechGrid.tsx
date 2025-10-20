@@ -9,7 +9,7 @@ const technologies = [
   { name: "Playwright" },
 ];
 
-export function TechGrid(): JSX.Element {
+export function TechGrid() {
   return (
     <section className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 pb-6">
       <h2 className="text-base font-semibold text-foreground/80">Compétences & Outils</h2>
