@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Candify",
+    "description": "Plateforme SaaS avec authentification complète. Création et gestion de comptes avec login Google et email/password.",
+    "image": "/candify.png",
+    "tech": ["Next.js", "TypeScript", "PostgreSQL", "BetterAuth"],
+    "github": "https://github.com/Ilan916/Candify",
+    "demo": null
+  },
+  {
+    "id": 2,
+    "title": "Ayve",
+    "description": "Sites vitrines éco-conçus pour entreprises locales. Focus sur l'accessibilité, la performance et le design épuré.",
+    "image": "/ayve-screen.png",
+    "tech": ["Astro", "Tailwind CSS", "TypeScript"],
+    "github": "https://github.com/Ilan916/ayve",
+    "demo": "https://ayve-studio.fr"
+  },
+  {
+    "id": 3,
+    "title": "E-commerce",
+    "description": "Application e-commerce intelligente qui suggère des recettes personnalisées en fonction des produits ajoutés au panier. Intègre paiement sécurisé et gestion des commandes.",
+    "image": "/commerce.png",
+    "tech": ["Next.js", "Prisma", "Stripe", "NextAuth", "Tailwind CSS", "Zod", "Supabase"],
+    "github": "https://github.com/Ilan916/e-commerce",
+    "demo": null
+  },
+  {
+    "id": 4,
+    "title": "A11E Scrappe",
+    "description": "Outil de scraping pour l'analyse d'accessibilité web. Automatisation des tests WCAG et génération de rapports.",
+    "image": "/A11E-scrappe-screen.png",
+    "tech": ["JavaScript", "HTML", "CSS", "React", "Node.js", "Express", "Puppeteer"],
+    "github": "https://github.com/Ilan916/A11E-Scrappe",
+    "demo": null
+  }
+]
