@@ -9,6 +9,7 @@ export function Hero() {
           <p className="text-sm uppercase tracking-widest text-foreground/60">Développeur Front-End</p>
           <h1 className="mt-2 text-3xl sm:text-5xl font-bold tracking-tight">
             Construire des interfaces web rapides, accessibles et élégantes
+            TEST du Commit normalement corrigé
           </h1>
           <p className="mt-4 text-foreground/70 max-w-prose">
             Je conçois et développe des expériences utilisateur performantes avec Next.js, TypeScript et Tailwind CSS. Passionné par la qualité, l’accessibilité et les bonnes pratiques.

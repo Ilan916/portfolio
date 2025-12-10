@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 type Project = {
@@ -9,6 +10,7 @@ type Project = {
   tech: string[];
   github: string;
   demo: string | null;
+  slug: string | null;
 };
 
 type ProjectCardProps = {
@@ -92,6 +94,11 @@ export function ProjectCard({ project }: ProjectCardProps) {
               Voir le site
             </a>
           )}
+          {
+            project.slug && (
+              <Link href={`/projects/${project.slug}`}>En savoir plus</Link>
+            )
+          }
         </div>
       </div>
     </article>

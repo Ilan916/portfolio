@@ -6,7 +6,8 @@
     "image": "/candify.png",
     "tech": ["Next.js", "TypeScript", "PostgreSQL", "BetterAuth"],
     "github": "https://github.com/Ilan916/Candify",
-    "demo": null
+    "demo": null,
+    "slug": "candify"
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "image": "/ayve-screen.png",
     "tech": ["Astro", "Tailwind CSS", "TypeScript"],
     "github": "https://github.com/Ilan916/ayve",
-    "demo": "https://ayve-studio.fr"
+    "demo": "https://ayve-studio.fr",
+    "slug": "ayve"
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@
     "image": "/commerce.png",
     "tech": ["Next.js", "Prisma", "Stripe", "NextAuth", "Tailwind CSS", "Zod", "Supabase"],
     "github": "https://github.com/Ilan916/e-commerce",
-    "demo": null
+    "demo": null,
+    "slug": "e-commerce"
   },
   {
     "id": 4,
@@ -33,6 +36,7 @@
     "image": "/A11E-scrappe-screen.png",
     "tech": ["JavaScript", "HTML", "CSS", "React", "Node.js", "Express", "Puppeteer"],
     "github": "https://github.com/Ilan916/A11E-Scrappe",
-    "demo": null
+    "demo": null,
+    "slug": "a11e-scrappe"
   }
 ]
